@@ -1,0 +1,87 @@
+.btn {
+	--bg: var(--pr);
+	--bg-hover: transparent;
+	--bd-color: transparent;
+	--bd-color-hover: var(--pr);
+	--bd-size: 2px;
+	--bd-size-hover: 2px;
+	--color: var(--wh);
+	--color-hover: var(--pr);
+	--height: var(--btn-size);
+	--padding: 0 20px;
+	--font-size: var(--text-size);
+
+	display: inline-flex;
+	justify-content: center;
+    align-items: center;
+	min-height: var(--height);
+	background-color: var(--bg);
+	font-size: var(--font-size);
+	color: var(--color);
+	border: var(--bd-size) solid var(--bd-color);
+	border-radius: var(--bd-radius);
+	transition: var(--transition);
+	padding: var(--padding);
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: var(--bg-hover);
+	color: var(--color-hover);
+	border: var(--bd-size-hover) solid var(--bd-color-hover);
+}
+
+
+
+
+
+/**
+ * Size buttons
+ * */
+.btn-sm {
+	--font-size: 14px;
+	--height: var(--btn-size-sm);
+}
+.btn-lg {
+	--padding: 0 38px;
+	--height: var(--btn-size-lg);
+}
+
+
+
+
+
+/**
+ *	Buttons styles
+ **/
+.btn-light {
+	--bg: var(--gray-light);
+	--color: var(--pr);
+}
+.btn-border {
+	--bd-color: transparent;
+	--bd-color-hover: var(--pr);
+	--bd-size: 2px;
+	--bd-size-hover: 2px;
+	--color: var(--wh);
+	--color-hover: var(--pr);
+}
+
+.btn-white-border {
+	--bg: transparent;
+	--color: var(--wh);
+	--bd-size: 1px;
+	--bd-color: rgba(var(--wh-rbga), .3);
+	--bd-radius: 6px;
+	--bg-hover: var(--wh);
+	--color-hover: var(--bl);
+	--bd-color-hover: var(--wh);
+}
+
+.btn-white {
+	--bg: var(--wh);
+	--color: var(--bl);
+	--bd-radius: var(--bd-radius-lg);
+	--bg-hover: var(--pr);
+	--color-hover: var(--wh);
+	--bd-color-hover: var(--pr);
+}

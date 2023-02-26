@@ -1,0 +1,73 @@
+:root {
+	
+	--pr: #FF7A42;
+	--pr-rgba: 255, 122, 66;
+
+	--wh: #fff;
+	--bl: #000;
+	--wh-rbga: 255,255,255;
+	--bl-rbga: 0,0,0;
+	--light: #F9F9F9;
+	--blue: #4C409C;
+	--blue-light: #64607D;
+	--blue-dark: #28293E;
+	--orange-light: #EF6D58;
+	--gray-light: #EEEEEE;
+
+	--text-font: 'Roboto', sans-serif;
+	--text-color: #222222;
+	--text-size: 16px;
+	--text-lh: 1.6;
+
+	--bd-radius-sm: 5px;
+	--bd-radius: 10px;
+	--bd-radius-lg: 25px;
+	--bd-color: #EEEEEE;
+
+	--btn-size-sm: 40px;
+	--btn-size:    50px;
+	--btn-size-lg: 68px;
+
+	--nav-size: 70px;
+
+	--container-lg: 1160px;
+	--container-padding: 30px;
+	--container-lg-padding: 52px;
+
+	--transition: .35s;
+}
+
+@media screen and (max-width: 768px) {
+	:root {
+		--container-lg-padding: 30px;
+	}
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: var(--text-size);
+	color: var(--text-color);
+	line-height: var(--text-lh);
+	font-family: var(--text-font);
+}
+
+a {
+	text-decoration: none;
+}
+
+svg {
+	--sz: 1em;
+	width: var(--sz);
+	height: var(--sz);
+	position: relative;
+}
+
+
+.logo {
+	font-size: 22px;
+	font-weight: 700;
+}
